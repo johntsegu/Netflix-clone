@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./header.module.css";
-import NetflixLogo from "../../assets/images/download.png";
-import SearchIcon from '@mui/icons-material/Search';
-import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import NetflixLogo from "../../assets/images/Netflix_Logo_RGB.png";
+import SearchIcon from "@mui/icons-material/Search";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 const Header = () => {
   return (
     <div className={styles.header_outer_container}>
@@ -25,10 +25,18 @@ const Header = () => {
 
         <div className={styles.header_right}>
           <ul>
-            <li><SearchIcon/></li>
-            <li><NotificationsNoneIcon/></li>
-            <li><AccountBoxIcon/></li>
-            <li><ArrowDropDownIcon/></li>
+            <li>
+              <SearchIcon />
+            </li>
+            <li>
+              <NotificationsNoneIcon />
+            </li>
+            <li>
+              <AccountBoxIcon />
+            </li>
+            <li>
+              <ArrowDropDownIcon />
+            </li>
           </ul>
         </div>
       </div>
