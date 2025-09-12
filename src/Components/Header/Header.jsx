@@ -36,7 +36,6 @@ const Header = () => {
             </li>
             <li>
               <ArrowDropDownIcon/>
-              
             </li>
           </ul>
         </div>
