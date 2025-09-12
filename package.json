@@ -1,9 +1,5 @@
 {
-  "homepage": "https://https://johntsegu.github.io/Netflix-clone",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/johntsegu/netflix-clone.git"
-  },
+  "homepage": "https://johntsegu.github.io/Netflix-clone",
   "name": "netflix-clone",
   "private": true,
   "version": "0.0.0",
