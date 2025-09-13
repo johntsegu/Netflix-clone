@@ -8,7 +8,6 @@
   --primary-color: #fff; /* #ffff is invalid, should be #fff or #ffffff */
   --secondary-color: #e50914;
 }
-
 *{
     margin: 0;
     padding: 0;
