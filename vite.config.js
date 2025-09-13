@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Netflix-clone',
+  base: "movie-app-clone-2025",
   plugins: [react()],
 })
